@@ -1,0 +1,19 @@
+baseURL = "https://example.com/"
+title = "狂癫书生"
+languageCode = "en"
+defaultContentLanguage = "cn"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+author = "John Doe"
+description = "John Doe's personal website"
+keywords = "blog,developer,personal"
+info = "Full Stack DevOps and Magician"
+
+[module]
+[module.hugoVersion]
+min = "0.77.0"
