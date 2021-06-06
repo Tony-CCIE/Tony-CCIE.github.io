@@ -8,11 +8,10 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 
-[params]
-author = "John Doe"
-description = "John Doe's personal website"
-keywords = "blog,developer,personal"
-info = "Full Stack DevOps and Magician"
+#author = "John Doe"
+#description = "John Doe's personal website"
+#keywords = "blog,developer,personal"
+#info = "Full Stack DevOps and Magician"
 
 [module]
 [module.hugoVersion]

@@ -1,4 +1,59 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "https://example.com/"
 title = "狂癫书生"
-theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "cn"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+author = "狂癫书生"
+description = "狂癫书生的个人网站"
+keywords = "blog,developer,personal"
+info = "DevOps Engineer and Open Source Enthusiast"
+footercontent = "Enter a text here"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url = "posts/"
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url = "about/"
+[[menu.main]]
+    name = "Projects"
+    weight = 1
+    url = "project/"
+[[menu.main]]
+    name = "Resume"
+    weight = 1
+    url = "resume/"
+[[menu.main]]
+    name = "Contact"
+    weight = 1
+    url = "contact/"
+    
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/johndoe/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/johndoe/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/johndoe/"    
+
+
+#[module]
+#[module.hugoVersion]
+#min = "0.77.0"
